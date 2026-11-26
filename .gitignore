@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+.env
+.env.*
+!.env.example
+
+# Flutter / Dart
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+build/
+.flutter/
+*.iml
+
+# IDE
+.idea/
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Android generated files and local configuration
+**/.gradle/
+**/.kotlin/
+**/local.properties
+frontend/android_backup/
+
+# Firebase configuration (review before committing)
