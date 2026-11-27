@@ -12,6 +12,7 @@ import 'user_management_screen.dart';
 import 'login_screen.dart';
 import 'admin_management_screen.dart';
 
+// Main dashboard for managing campus transport operations.
 class AdminDashboard extends StatelessWidget {
   const AdminDashboard({super.key});
 
