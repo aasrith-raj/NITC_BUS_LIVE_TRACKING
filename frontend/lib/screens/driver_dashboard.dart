@@ -216,7 +216,10 @@ class _DriverDashboardState extends State<DriverDashboard> {
         busId: _bus!.id,
         latitude: position.latitude,
         longitude: position.longitude,
-        recordedAt: DateTime.now().toUtc(),
+
+        // Use the timestamp associated with this GPS reading.
+        // Convert it to UTC before sending it to the backend.
+        recordedAt: position.timestamp.toUtc(),
       );
     } catch (error) {
       if (mounted) {
